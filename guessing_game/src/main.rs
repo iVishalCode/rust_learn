@@ -1,8 +1,8 @@
 use std::io;
 fn main(){
-    println!("guess the number!");
-    println!("please input your guess.");
+    println!("Guess the Number");
+    println!("Please enter the guess number");
     let mut guess = String::new();
-    io::stdin().read_line( &mut  guess).expect("failed to read line");
-    println!("Your guess : {}",guess)
+    io::stdin().read_line(&mut guess).expect("failed to learn the read line");
+    println!(" You guess : {}" , guess)
 }
